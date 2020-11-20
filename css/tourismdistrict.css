@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: black;
+    height: 80px;
+}
+.container{
+    margin-top: 5%;
+}
+body{
+    background-size: cover;
+}
+.card{
+    float: left;
+    margin-left: 27px;
+    
+}
+.first{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.second{
+    margin-top: 20%;
+    margin-left: 2%;
+}
+.third{
+    margin-top: 20%;
+    margin-left: 2%;
+}
+.fourth{
+    margin-top: 20%;
+    margin-left: 25%;
+}

@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+}
+header{
+    background-color: white;
+    height: 7em;
+}
+img{
+    margin-left: 30px;
+    margin-top: 6px;
+}
+.headtag{
+    float: right;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.headtag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration:none ;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    margin-right: 10px;
+}
+.headtag a:hover{
+    background-color: cornflowerblue;
+    color: black;
+    transition: cubic-bezier(0.01, 0.82, 0.165, 1);
+}
+.sidebar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    padding: 80px;
+}
+.sidebar li{
+    list-style: square;
+    margin-top: 4px;
+    
+}
+/* login form */
+.login{
+    float: right;
+    border: 2px solid red;
+    background-color: beige;
+}
+.paragraph{
+    border: 2px solid white; 
+    width: 24%;
+    float: left;
+    margin-left: 20px;
+    height: 12em;
+    padding: 5px;
+    background-color: beige;
+}
+.container{
+    /* border: 2px solid blue; */
+    margin-left: 10%;
+    
+}
+.paragraph h3{
+    
+        text-align: center;
+        text-transform: uppercase;
+}
+.paragraph{
+    line-height: 1.2em;
+    text-align: justify;
+}
+.paragraph a{
+    text-decoration: none;
+    color:red;
+}
+footer {
+    background-color: darkolivegreen;
+    color: white;
+    margin-top: 17%;
+    text-align: center;
+}
